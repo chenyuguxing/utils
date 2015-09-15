@@ -1,0 +1,51 @@
+package 第九章.实例100;
+<html>
+<head>
+<title>发送邮件</title>
+</head>
+<body bgcolor=#add8e6>
+<CENTER>
+<FONT SIZE=5 COLOR=BLUE>发送邮件</FONT>
+</CENTER>
+<BR>
+<HR>
+<BR>
+<center>
+<form name="email" action="sendMail.jsp" method="post" >
+<table cellspacing="2" cellpadding="2" border="1">
+<tr>
+<td>收件人:</td>
+<td><input type="text" name="to" size="30" maxlength="30"></td>
+</tr>
+<tr>
+<td>发件人:</td>
+<td><input type="text" name="from" size="30" maxlength="30" ></td>
+</tr>
+<tr>
+<td>抄  送:</td>
+<td><input type="text" name="cc" size="30" maxlength="100"></td>
+</tr>
+<tr>
+<td>暗  送:</td>
+<td><input type="text" name="bcc" size="30" maxlength="100"></td>
+</tr>
+<tr>
+<td>主  题:</td>
+<td><input type="text" name="subject" size="30" maxlength="30"></td>
+</tr>
+<tr>
+<td colspan="2" align=center>
+<textarea cols="40" rows="10" name="body"  >...</textarea>
+</td>
+</tr>
+<tr>
+<td  align=center colspan="2">
+<input type="submit" name="submit" value="发送">&nbsp&nbsp&nbsp&nbsp
+<input type="Reset">
+</td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>

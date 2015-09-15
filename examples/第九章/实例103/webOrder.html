@@ -1,0 +1,208 @@
+package 第九章.实例103;
+<html>
+<head>
+<title>Web Order</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+
+<body bgcolor=pink>
+<form method="post" action="webOrder.jsp">
+  <center>	
+    <p><font size="5"><b><font size="6">网络订餐服务
+    </font></b></font></p>
+    <p><font size="3">客户名称：
+    <input type="text" name="name" size="12" maxlength="12">
+    电话：
+    <input type="text" name="tel" size="12" maxlength="12">
+    住址：
+    <input type="text" name="addr" size="30" maxlength="30">
+    </font></p>
+  </center>	
+  <table width="90%" border="1" align="center" bgcolor="#CCCCCC">
+    <tr>
+      <td colspan="3" nowrap>
+        <div align="center"><b>饮料</b></div>
+      </td>
+      <td colspan="2" nowrap> 
+        <div align="center"><b>薯条</b></div>
+      </td>
+      <td colspan="2" nowrap> 
+        <p align="center"><b>汉堡</b></p>
+      </td>
+      <td colspan="2" nowrap> 
+        <p align="center"><b>鸡块</b></p>
+      </td>
+      <td colspan="2" nowrap> 
+        <p align="center"><b>甜点</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td nowrap>百事可乐</td>
+      <td nowrap> 
+        <p>大(6) 
+          <input type="hidden" name="PepsiColaName" value="百事可乐大杯">
+          <input type="hidden" name="PepsiColaPrice" value="6">
+        </p>
+        <p>小(5) 
+          <input type="hidden" name="PepsiColaName" value="百事可乐小杯">
+          <input type="hidden" name="PepsiColaPrice" value="5">
+        </p>
+      </td>
+      <td nowrap> 
+        <p> 
+          <input type="text" name="PepsiColaItem" size="3" maxlength="3">
+          杯 </p>
+        <p> 
+          <input type="text" name="PepsiColaItem" size="3" maxlength="3">
+          杯 </p>
+      </td>
+      <td nowrap> 大(35) 
+        <input type="hidden" name="FrenchFriesName" value="薯条大份">
+        <input type="hidden" name="FrenchFriesPrice" value="6">
+        <p>小(25) 
+          <input type="hidden" name="FrenchFriesName" value="薯条小份">
+          <input type="hidden" name="FrenchFriesPrice" value="4">
+        </p>
+      </td>
+      <td nowrap> 
+        <p> 
+          <input type="text" name="FrenchFriesItem" size="3" maxlength="3">
+          </p>
+        <p> 
+          <input type="text" name="FrenchFriesItem" size="3" maxlength="3">
+          </p>
+      </td>
+      <td nowrap width="18%"> 
+        <p>麦辣鸡腿堡(10) 
+          <input type="hidden" name="SandwichesName" value="麦辣鸡腿堡">
+          <input type="hidden" name="SandwichesPrice" value="10">
+        </p>
+      </td>
+      <td nowrap width="6%"> 
+        <input type="text" name="SandwichesItem" size="3" maxlength="3">
+        个</td>
+      <td nowrap width="15%"> 
+        <p>吮指鸡块(4) 
+          <input type="hidden" name="NuggetsName" value="吮指鸡块">
+          <input type="hidden" name="NuggetsPrice" value="4">
+        </p>
+      </td>
+      <td nowrap width="9%"> 
+        <input type="text" name="NuggetsItem" size="3" maxlength="3">
+        个 </td>
+      <td nowrap width="13%"> 冰淇淋(3) 
+        <input type="hidden" name="DessertName" value="冰淇淋">
+        <input type="hidden" name="DessertPrice" value="3">
+      </td>
+      <td nowrap width="8%"> 
+        <input type="text" name="DessertItem" size="3" maxlength="3">
+        个 </td>
+    </tr>
+    <tr>
+      <td nowrap> 七喜</td>
+      <td nowrap> 
+        <p>大(6) 
+          <input type="hidden" name="SevenUPName" value="七喜大杯">
+          <input type="hidden" name="SevenUPPrice2" value="5">
+        </p>
+        <p>小(5) 
+          <input type="hidden" name="SevenUPName" value="七喜小杯">
+          <input type="hidden" name="SevenUPPrice" value="4">
+        </p>
+      </td>
+      <td nowrap> 
+        <p> 
+          <input type="text" name="SevenUPItem" size="3" maxlength="3">
+          杯 </p>
+        <p> 
+          <input type="text" name="SevenUPItem" size="3" maxlength="3">
+          杯 </p>
+      </td>
+      <td nowrap>&nbsp;</td>
+      <td nowrap>&nbsp;</td>
+      <td nowrap width="18%"> 
+        <p>麦辣鱼块堡(10) 
+          <input type="hidden" name="SandwichesName2" value="麦辣鱼块堡">
+          <input type="hidden" name="SandwichesPrice2" value="10">
+        </p>
+      </td>
+      <td nowrap width="6%"> 
+        <input type="text" name="SandwichesItem" size="3" maxlength="3">
+        个 </td>
+      <td nowrap width="15%"> 
+        <p>上校鸡块(4) 
+          <input type="hidden" name="NuggetsName" value="上校鸡块">
+          <input type="hidden" name="NuggetsPrice" value="4">
+        </p>
+      </td>
+      <td nowrap width="9%"> 
+        <input type="text" name="NuggetsItem" size="3" maxlength="3">
+        个  </td>
+      <td nowrap width="13%"> 
+        <p>奶昔 (3) 
+          <input type="hidden" name="DessertName" value="奶昔">
+          <input type="hidden" name="DessertPrice" value="3">
+        </p>
+      </td>
+      <td nowrap width="8%"> 
+        <input type="text" name="DessertItem" size="3" maxlength="3">
+        份 </td>
+    </tr>
+    <tr>
+      <td nowrap> 橙汁</td>
+      <td nowrap> 
+        <p>大(4) 
+          <input type="hidden" name="OrangeJuiceName" value="橙汁大杯">
+          <input type="hidden" name="OrangeJuicePrice" value="4">
+        </p>
+        <p>小(3) 
+          <input type="hidden" name="OrangeJuiceName" value="橙汁小杯">
+          <input type="hidden" name="OrangeJuicePrice" value="3">
+        </p>
+      </td>
+      <td nowrap> 
+        <p> 
+          <input type="text" name="OrangeJuiceItem" size="3" maxlength="3">
+          杯 </p>
+        <p> 
+          <input type="text" name="OrangeJuiceItem" size="3" maxlength="3">
+          杯 </p>
+      </td>
+      <td nowrap>&nbsp;</td>
+      <td nowrap>&nbsp;</td>
+      <td nowrap width="18%"> 
+        <p>麦辣鸡块堡(10) 
+          <input type="hidden" name="SandwichesName3" value="麦辣鸡快堡">
+          <input type="hidden" name="SandwichesPrice22" value="10">
+        </p>
+      </td>
+      <td nowrap width="6%"> 
+        <input type="text" name="SandwichesItem" size="3" maxlength="3">
+        个 </td>
+      <td nowrap width="15%"> 
+        <p>麦辣鸡翅(4) 
+          <input type="hidden" name="NuggetsName" value="麦辣鸡翅">
+          <input type="hidden" name="NuggetsPrice" value="4">
+        </p>
+      </td>
+      <td nowrap width="9%"> 
+        <input type="text" name="NuggetsItem" size="3" maxlength="3">
+        个 </td>
+      <td nowrap width="13%"> 
+        <p>苹果派(3) 
+          <input type="hidden" name="DessertName" value="苹果派">
+          <input type="hidden" name="DessertPrice" value="3">
+        </p>
+      </td>
+      <td nowrap width="8%"> 
+        <input type="text" name="DessertItem" size="3" maxlength="3">
+        份 </td>
+    </tr>
+  </table>
+  <p>&nbsp;</p><center> 
+    <input type="submit" name="Submit" value="确定">
+    <input type="reset" name="Reset" value="重填">
+  </center>
+</form>
+</body>
+</html>

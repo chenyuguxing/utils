@@ -1,0 +1,21 @@
+package 第十一章.实例116;
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="src" path="src"/>
+    <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <classpathentry kind="src" path="j2src"/>
+    <classpathentry kind="var" path="JDK_TOOLS"/>
+    <classpathentry kind="var" path="JBOSS300/bin/run.jar"/>
+    <classpathentry kind="var" path="JBOSS300/bin/shutdown.jar"/>
+    <classpathentry kind="var" path="JBOSS300/client/jboss-j2ee.jar"/>
+    <classpathentry kind="var" path="JBOSS300/server/all/lib/javax.servlet.jar"/>
+    <classpathentry kind="src" path="ejbsrc"/>
+    <classpathentry kind="var" path="JBOSS300/client/jnp-client.jar"/>
+    <classpathentry kind="var" path="JBOSS300/client/jboss-client.jar"/>
+    <classpathentry kind="var" path="JBOSS300/client/jboss-common-client.jar"/>
+    <classpathentry kind="var" path="JBOSS300/client/jbosssx-client.jar"/>
+    <classpathentry kind="var" path="JBOSS300/client/log4j.jar"/>
+    <classpathentry kind="var" path="JBOSS300/client/jnet.jar"/>
+    <classpathentry kind="var" path="JBOSS300/client/jaas.jar"/>
+    <classpathentry kind="output" path="bin"/>
+</classpath>

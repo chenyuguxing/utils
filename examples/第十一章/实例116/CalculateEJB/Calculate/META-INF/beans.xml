@@ -1,0 +1,8 @@
+package 第十一章.实例116;
+<?xml version="1.0" encoding="GBK"?>
+<beangroup>
+  <bean>
+    <beanClass>cal.CalculateBean</beanClass>
+    <type>Session</type>
+  </bean>
+</beangroup>

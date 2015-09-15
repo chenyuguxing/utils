@@ -1,0 +1,19 @@
+package 第十一章.实例116;
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jonas-ejb-jar PUBLIC "-//ObjectWeb//DTD JOnAS 3.2//EN" "http://www.objectweb.org/jonas/dtds/jonas-ejb-jar_3_2.dtd">
+
+<jonas-ejb-jar>
+
+  <!-- Session Beans -->
+  <jonas-session>
+
+    <ejb-name>Calculate</ejb-name>
+
+    <jndi-name>CalculateBean</jndi-name>
+
+  </jonas-session>
+
+  <!-- Entity Beans -->
+  <!-- Message Driven Beans -->
+
+</jonas-ejb-jar>
