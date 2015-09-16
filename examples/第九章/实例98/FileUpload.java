@@ -1,5 +1,4 @@
 package 第九章.实例98;
-package test;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.ServletInputStream;
 import java.util.Dictionary;

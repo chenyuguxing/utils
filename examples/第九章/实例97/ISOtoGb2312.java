@@ -1,5 +1,4 @@
 package 第九章.实例97;
-package test;
 
 public class ISOtoGb2312
 {

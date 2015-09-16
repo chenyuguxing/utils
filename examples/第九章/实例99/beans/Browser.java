@@ -1,5 +1,4 @@
-package 第九章.实例99;
-package beans;
+package 第九章.实例99.beans;
 
 import java.util.*;
 import javax.servlet.*;
