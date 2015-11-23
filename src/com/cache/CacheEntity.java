@@ -6,7 +6,7 @@ public class CacheEntity implements Serializable{
 	private static final long serialVersionUID = -3971709196436977492L;
 	private final int DEFUALT_VALIDITY_TIME = 20;//默认过期时间 20秒
 	
-	private String cacheKey;
+	private String cacheKey; 
 	private Object cacheContext;
 	private int validityTime;//有效期时长，单位：秒
 	private long timeoutStamp;//过期时间戳
