@@ -13,7 +13,7 @@ import com.cache.SimpleConcurrentMap;
 
 /**
  * @projName：WZServer
- * @className：CacheHandler
+ * @className：CacheHandler 
  * @description：缓存操作类，对缓存进行管理,清除方式采用Timer定时的方式
  * @creater：Administrator 
  * @creatTime：2013年7月22日 上午9:18:54 
