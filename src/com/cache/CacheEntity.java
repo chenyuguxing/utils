@@ -9,7 +9,7 @@ public class CacheEntity implements Serializable{
 	private String cacheKey;    
 	private Object cacheContext;
 	private int validityTime;//有效期时长，单位：秒
-	private long timeoutStamp;//过期时间戳
+	private long timeoutStamp;//过期时间戳,ceshi 
 	
 	private CacheEntity(){
 		this.timeoutStamp = System.currentTimeMillis() + DEFUALT_VALIDITY_TIME * 1000;
